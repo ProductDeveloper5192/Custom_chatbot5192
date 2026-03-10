@@ -1,0 +1,93 @@
+Detailed Explanation of Extrcation_text.py
+============================================
+
+This document provides an end-to-end explanation of how the `Extrcation_text.py` script functions to process the "CoE Kavach Ver 3.2 manual.pdf" and load it into a vector database for the RAG (Retrieval-Augmented Generation) application.
+
+Overview
+--------
+The script's primary goal is to parse a PDF document, extract both the written text and the embedded images, clean the text to remove formatting garbage (like headers, footers, and page numbers), break the clean text into overlapping chunks, link those chunks to the extracted images, and finally store everything into a local ChromaDB vector database so it can be searched by the Streamlit application.
+
+Step-by-Step Breakdown
+----------------------
+
+### 1. Initialization and Setup
+The script begins by importing necessary libraries:
+- `fitz` (PyMuPDF): For opening, reading, and extracting data streams from PDF files.
+- `PIL.Image`: For loading raw byte data and saving it as standard image files (e.g., .jpg).
+- `chromadb`: The local vector database used to store text embeddings.
+- `re`: Regular expressions module used for searching and replacing text patterns (cleaning).
+- `RecursiveCharacterTextSplitter`: A Langchain utility designed to break long volumes of text into smaller, overlapping chunks while trying to keep paragraphs intact.
+
+It sets up directories:
+- `pdf_path`: Points to the specific PDF file to read.
+- `image_dir`: Creates a folder (`./extracted_images`) where all the pictures from the PDF will be saved.
+
+### 2. Deep Text Cleaning (Regex)
+```python
+def clean_extracted_text(text: str) -> str:
+```
+This function is crucial for high-quality search results. It acts as a text scrubber before the database sees the data.
+- It uses Regular Expressions (`re.sub`) to identify and remove repetitive artifacts that appear on every page of the PDF, such as the document title "LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2".
+- It removes standalone page numbers.
+- It removes list index numbers (like "1.", "2.") to prevent the database from getting confused by numbered lists.
+- It looks for and safely replaces literal template placeholders that were printed in the manual. For example, the text "Brakes Testing – Waiting for MR X.YY( X.YY)Kg/cm2" is confusing for a search engine, so `X.YY`, `YYYY`, and `XXXX` are replaced with a generic `[value]` indicator.
+
+### 3. Extracting Text from PDF Blocks
+```python
+def extract_direct_text(page) -> str:
+```
+Instead of just asking PyMuPDF for "all the text on the page" as one giant string, the script uses the `"dict"` extraction method:
+- It asks PyMuPDF for the document's internal layout "blocks".
+- For every text block, it looks at the individual lines.
+- It joins lines that belong to the same block with a space (`" ".join`). This prevents a sentence that wrapped across two lines in the PDF from being broken in half in the text database.
+- It inserts double newlines (`\n\n`) between different blocks, perfectly reconstructing human-readable paragraphs.
+
+### 4. Extracting and Filtering Images
+```python
+def extract_images_from_page(doc, page, page_number):
+```
+This function isolates the visual assets.
+- It pulls all raw image streams from the current page.
+- It applies a Size Filter: If an image is smaller than 150x150 pixels, it is ignored. This is a critical step because PDFs often contain tiny vector masks, logos, or bullet points that look like solid colored rectangles when extracted.
+- Valid images are converted from raw bytes via the `PIL` library into `.jpg` format and saved locally to the `./extracted_images/` folder.
+- The function returns a list of file paths (e.g., `[./extracted_images/page1_img0.jpg]`) pointing to the newly saved images.
+
+### 5. The Main Processing Loop
+```python
+def process_pdf(...):
+```
+This is the core loop that drives the script. It opens the PDF and Iterates over every single page (`for page_num in range(len(doc)):`).
+For each page:
+1. It calls `extract_direct_text(page)` to get the raw paragraph text.
+2. It passes that text through `clean_extracted_text(text)` to remove headers, placeholders, and noise.
+3. It calls `extract_images_from_page(...)` to physically save any valid pictures found on that page, storing their paths in a variable.
+
+### 6. Semantic Chunking
+```python
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=1000,
+        chunk_overlap=200, ...
+```
+Language models and vector databases perform poorly if you feed them an entire book at once. They need small, focused "chunks" of context.
+- The script takes the combined, cleaned text of the entire document and splits it into chunks of **1000 characters**.
+- It uses a **200 character overlap**. This means the end of Chunk A and the beginning of Chunk B share 200 characters. This ensures that if a sentence is split exactly at the 1000-character boundary, the context is not lost because the next chunk will contain the full sentence.
+
+### 7. Database Indexing (ChromaDB)
+```python
+        documents = []
+        metadatas = []
+        ids = []
+```
+Finally, the script prepares the data to be injected into the local ChromaDB search engine.
+- Every text chunk is appended to the `documents` list.
+- A profound link is made using JSON `metadatas`. For each chunk of text, religious tracking ensures that the `page_number` it came from, and the `images` (file paths) that were extracted from that same page, are permanently glued to the text chunk.
+- The `ids` are just sequential unique identifiers (`chunk_1`, `chunk_2`).
+
+The arrays are pushed into the database using `collection.add(...)` into the `doc_chunks_v7` namespace. ChromaDB automatically generates the mathematical embeddings (vectors) for the text locally on your CPU and saves the database securely to your disk.
+
+Conclusion
+----------
+When `Extrcation_text.py` finishes running, it has:
+1. Created a folder full of clean JPEG images.
+2. Stripped away all PDF formatting garbage and placeholder artifacts.
+3. Assembled a high-quality local AI database where every paragraph is mapped to the images found on its surrounding page.

@@ -1,0 +1,3481 @@
+भारतसरकार- रेल मंũालय Govt. of India – Ministry of Railways
+भारतीय रेल िसगनल इंजीिनयरी और दूरसंचार सं˕ान
+Indian Railways Institute of Signal Engineering and Telecommunications
+तारनाका रोड, िसकंदराबाद Tarnaka Road, Secunderabad – 500017 (भारत)(INDIA)
+=========================================================================== 
+IRISET/CoE/Kavach/Misc 
+ 
+ 
+ 
+ 
+             Date: 22.07.2024 
+ 
+PCEE/SCR, NCR 
+ 
+Sub: Seeking Feedback on Loco Pilot Operating Manual for Kavach Spec Ver 3.2 
+Ref: CoE Lett
+
+, NCR 
+ 
+Sub: Seeking Feedback on Loco Pilot Operating Manual for Kavach Spec Ver 3.2 
+Ref: CoE Letter IRISET/CoE/Kavach/Misc dated 24.05.2024 
+<<>> 
+           Loco Pilot Operating Manual based upon RDSO Specification No. 
+RDSO/SPN/196/2012 for Kavach Spec Version 3.2 was prepared independently 
+by SC Railway as well as CoE. The manual prepared by SC Railway has been 
+quite useful and substantial effort has been put in by SC Railway. However, the 
+Manual drafted by CoE includes the items mentio
+
+effort has been put in by SC Railway. However, the 
+Manual drafted by CoE includes the items mentioned in CoE Letter dated 
+24.05.2024 under reference also so as to have Comprehensive, User Friendly 
+Manual from Loco Pilot’s point of view.  
+            
+        It is requested to convey feedback on the Loco Pilot Operating Manual within 
+a week i.e. by 29.07.2024 so that the same can be finalized and issued 
+accordingly. 
+    
+Encl: As above
+
+d and issued 
+accordingly. 
+    
+Encl: As above 
+                                                                                 
+                                                                        (लिलत के. मनसुखानी, Lalit K. Mansukhani),                      
+                                                                               Officer on Special Duty (OSD) 
+                                                    Centre of Excellence (Modern Signalling-Kavach) 
+ 
+Copy: 
+DG/IRISET, PE
+
+Centre of Excellence (Modern Signalling-Kavach) 
+ 
+Copy: 
+DG/IRISET, PED(Coord)/Signal, Railway Board: For Kind information please 
+PED/RS/RB, PED/Traction/RDSO, PED/SM/RB, PED/S&T/Dev/RB 
+ED/Tele-II/RDSO/SC, ED/PS&EMU/RDSO, ED/RS/RDSO 
+Kavach OEMs: Medha, HBL, Kernex 
+ 
+ 
+ 
+ 
+ 
+LALIT KUMAR 
+MANSUKHANI
+Digitally signed by LALIT KUMAR 
+MANSUKHANI 
+Date: 2024.07.22 19:11:35 +05'30'
+
+:35 +05'30'
+
+LOCO PILOT
+OPERATING MANUAL
+FOR
+
+KAVACH SPEC VER 3.2
+
+KAVACH TRAINING GUIDE
+CoE/Kavach/2024/004
+Issue 0.1 for comments | July 2024
+
+TRP REV OVRD
+
+ISSUED BY
+CENTRE OF EXCELLENCE - KAVACH
+
+DRAFT
+OVERVIEW
+Approval History___________________________________________________________________3
+FIGURES SUMMARY_______________________________________________________________ 4
+Abbreviations used in the document_________________________________________________________ 5
+SECTION#1: KAVACH INTRODUCTION______________________________________________ 7
+I. Introduction To Kavach_________________________________________________________ 7
+II. Onboard Kavach Overview__________________________________
+
+____________________________________ 7
+II. Onboard Kavach Overview_____________________________________________________7
+III. Features Of Onboard Kavach__________________________________________________ 9
+IV. Working Of Onboard Kavach_________________________________________________ 10
+SECTION#2: LOCO PILOT - OPERATION CUM INDICATION___________________________ 13
+PANEL (LP-OCIP)_________________________________________________________________________ 13
+I. LP-OCIP Unit Front Panel_______________
+
+______________________________________________________ 13
+I. LP-OCIP Unit Front Panel______________________________________________________13
+II. Onboard Kavach Counters____________________________________________________ 15
+III. Onboard Kavach System Indications___________________________________________15
+IV. OPERATING MODES_________________________________________________________16
+a) Standby Mode___________________________________________________________ 16
+b) Staff Responsible (SR) Mode____
+
+ode___________________________________________________________ 16
+b) Staff Responsible (SR) Mode_______________________________________________17
+c) Limited Supervision (LS) Mode_____________________________________________ 17
+d) Full Supervision (FS) Mode_________________________________________________19
+e) Override Mode___________________________________________________________ 20
+f) On-sight Mode___________________________________________________________ 20
+g) Trip Mode______________________
+
+ode___________________________________________________________ 20
+g) Trip Mode________________________________________________________________21
+h) Post Trip Mode___________________________________________________________ 22
+i) Non Leading Mode________________________________________________________ 24
+j) Reverse Mode____________________________________________________________ 24
+k) Shunt Mode______________________________________________________________25
+l) System Failure Mode_________________
+
+__________________________________________________________25
+l) System Failure Mode______________________________________________________ 26
+m) Isolation Mode___________________________________________________________27
+V. Mode Transition_____________________________________________________________ 28
+VI. Illustration for using Override mode and transition into Onsight mode_____________________30
+VII. Illustration for using Post Trip Mode___________________________________________________31
+SECT
+
+VII. Illustration for using Post Trip Mode___________________________________________________31
+SECTION#3: KAVACH OPERATION PROCEDURE FOR LOCO_________________________ 32
+PILOT____________________________________________________________________________________ 32
+I. Procedure for Switching-On Onboard Kavach___________________________________ 32
+II. Procedure for Switching OFF Onboard Kavach__________________________________ 33
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+1
+
+___________________________ 33
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+1
+
+DRAFT
+III. Procedure of Brakes Functional Test and Selection of Train_______________________33
+Configuration__________________________________________________________________________ 33
+IV. Procedure for SOS Generation and Reception:__________________________________ 37
+V. Collision Situations:__________________________________________________________________ 37
+VI. Train movement from Kavach section to non-Kavach
+section________________ 39
+VII. SHUNTING OPERATION PROCEDURE______________________
+
+ion to non-Kavach
+section________________ 39
+VII. SHUNTING OPERATION PROCEDURE________________________________________ 39
+VIII. PROCEDURE FOR Leading/NON-LEADING Switch OPERATION_________________39
+IX. SPAD AND TRAIN TRIP RECOVERY___________________________________________________ 40
+X. Auto whistling on approach of Level Crossing Gate_____________________________40
+XI. DOs and DON’Ts____________________________________________________________ 41
+SECTION#4: Information At A Glance_______________
+
+_______________________________________________ 41
+SECTION#4: Information At A Glance__________________________________________ 42
+I. Crew Messages______________________________________________________________ 43
+II. All OEMs MCB Location_______________________________________________________________45
+III. All OEMs Isolation Switch Location____________________________________________________ 49
+IV. All OEMs Cocks Location_____________________________________________________________ 52
+V. IMPORT
+
+V. All OEMs Cocks Location_____________________________________________________________ 52
+V. IMPORTANT Note to the Loco Pilot____________________________________________________ 55
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+2
+
+DRAFT
+Revision History
+Date of Revision
+Description of Change
+Reason for Change
+22.07.2024
+Issue for comments
+—
+Approval Ver 0.1
+Prepared By
+Reviewed By
+Checked By
+Approved By
+Name
+Aman Kumar
+T. Nagaraj
+A. Sanjeeva Rao
+Lalit K. Mansukhani
+Desig.
+Dy.Dir(T&RS)/
+CoE/IRISET
+Dir-I (T&RS)/
+CoE/IRISET
+Dir-II (T&RS)/
+CoE/IRISET
+OSD/CoE/IRISET
+Signature
+Date
+22.07.2024
+22.07.2024
+22.07.2024
+22.07.2024
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+3
+TADINADA 
+NAGARAJ
+Digitally signed by 
+TADINADA
+
+PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+3
+TADINADA 
+NAGARAJ
+Digitally signed by 
+TADINADA NAGARAJ 
+Date: 2024.07.22 
+18:50:08 +05'30'
+Sanjee
+va Rao 
+Aindla
+war
+Digitally 
+signed by 
+Sanjeeva Rao 
+Aindlawar 
+Date: 
+2024.07.22 
+18:56:50 
++05'30'
+LALIT KUMAR 
+MANSUKHANI
+Digitally signed by LALIT 
+KUMAR MANSUKHANI 
+Date: 2024.07.22 
+19:10:57 +05'30'
+
+DRAFT
+FIGURES SUMMARY
+Figure
+Page
+Figure 1: Onboard Kavach Block Diagram
+7
+Figure 2: Onboard Kavach illustration diagram
+9
+Figure 3: Brake Characteristic
+12
+Figure 4: LP-OCIP panel
+13
+Figure 5: Default screen of LP-OCIP
+13
+Figure 6: System Indicators on the LP-OCIP
+15
+Figure 7: Mode Transitions in Kavach Specification Ver. 3.2
+28
+Figure 8: Illustration for using Override mode and transition into Onsight mode
+30
+Figure 9: Illustration for using Post Trip Mode
+31
+Figure 10: New configuration setti
+
+nsight mode
+30
+Figure 9: Illustration for using Post Trip Mode
+31
+Figure 10: New configuration setting up LP-OCIP screens
+34-36
+Figure 11 Context Messages for the Loco Pilot
+43
+Figure 12: All OEMs MCB Location
+45-48
+Figure 13: All OEMs Isolation Switch Location
+49-51
+Figure 14: All OEMs cocks Location
+52-54
+Figure 15: CCB 2.0 locomotives
+56
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+4
+
+DRAFT
+Abbreviations used in the document
+SR
+Abbreviations
+1.
+ABS: Automatic Block Signalling
+2.
+AWS: Auxiliary Warning System
+3.
+BIU: Brake Interface Unit
+4.
+BP: Brake Pipe Pressure
+5.
+CCB: Computer Controller Brake
+6.
+CNFM: Confirm
+7.
+CoE: Centre of Excellence
+8.
+CRW: Cab Rear Wall
+9.
+EB: Emergency Brake
+10.
+EEV: Emergency Exhaust Valve
+11.
+EM: Emergency Magnet Valve Isolation
+12.
+EMU: Electric Multiple Unit
+13.
+FS: Full Supervision mode
+14.
+FSB: Full Service Brake
+15.
+G&SR: General & Subsidiar
+
+ultiple Unit
+13.
+FS: Full Supervision mode
+14.
+FSB: Full Service Brake
+15.
+G&SR: General & Subsidiary Rules
+16.
+IB: Intermediate Block Signal
+17.
+IODU: Input Output Distribution Unit
+18.
+IRAB: Indian Railway Air Brake
+19.
+IR-ATP: Indian Railways – Automatic Train Protection System
+20.
+IRU: Interface Relay Unit
+21.
+IS: Isolation mode
+22.
+LC Gate: Level Crossing Gate
+23.
+LP: Loco Pilot
+24.
+LP-OCIP: Loco Pilot - Operation cum Indication Panel/DMI
+25.
+LS: Limited Supervision mode
+26.
+MA: Movement Au
+
+Loco Pilot - Operation cum Indication Panel/DMI
+25.
+LS: Limited Supervision mode
+26.
+MA: Movement Authority
+27.
+MCB: Miniature Circuit Breaker
+28.
+MR: Main Reservoir
+29.
+NL: Non-Leading
+30.
+NSB: Normal Service Brake
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+5
+
+DRAFT
+31.
+OEM: Original Equipment Manufacturer
+32.
+OS: On-Sight mode
+33.
+OSD: Officer on Special Duty
+34.
+OV/OVRD: Override mode
+35.
+PDU: Power Distribution Unit
+36.
+PG: Pulse Generator
+37.
+PRC: Power Controller
+38.
+PSR: Permanent Speed Restriction
+39.
+PT: Post Trip mode
+40.
+RFID: Radio Frequency Identification
+41.
+RV/REV: Reverse
+42.
+SB: Service Brake and Standby mode
+43.
+SH/SHNT: Shunt mode
+44.
+SIFA Magnet Valve: Emergency Magnet Valve
+45.
+SM-OCIP: Station Master - Operation cum Indication Pan
+
+SIFA Magnet Valve: Emergency Magnet Valve
+45.
+SM-OCIP: Station Master - Operation cum Indication Panel
+46.
+SoS: Save Our Soul
+47.
+SPAD: Signal Passing At Danger
+48.
+SR: Staff Responsible mode
+49.
+TCAS: Train Collision Avoidance System
+50.
+TIN: Track Identification Number
+51.
+TLC: Traction Loco Controller
+52.
+TRIP: Trip mode
+53.
+T&RS: Traction & Rolling Stock
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+6
+
+SPEC VER 3.2 |
+6
+
+DRAFT
+SECTION#1: KAVACH INTRODUCTION
+I.
+Introduction To Kavach
+Kavach
+is
+India's
+indigenous
+Automatic
+Train
+Protection
+(ATP) system.
+Originally called the Train Collision Avoidance System (TCAS), it has been
+developed in India to boost train safety. Kavach is designed to help loco pilots,
+by providing them with important information and automatic controls. Kavach
+has been adopted as our National Automatic Train Protection (ATP) System in
+the year 2020.
+Kavach offers several key safety features.
+
+utomatic Train Protection (ATP) System in
+the year 2020.
+Kavach offers several key safety features. It constantly monitors train speed,
+preventing trains from going too fast or running past red signals. It also controls
+speed on loop lines. The system shows upcoming signal status in the LP-OCIP
+and automatically blows the train whistle(horn) at railway crossings.
+II.
+Onboard Kavach Overview
+Figure. 1 below illustrates the integration of Onboard Kavach with the Loco
+and its subsystems.
+Figure 1:
+
+. 1 below illustrates the integration of Onboard Kavach with the Loco
+and its subsystems.
+Figure 1: Onboard Kavach Block Diagram
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+7
+
+DRAFT
+The function of various units are as follows:
+I.
+An MCB unit is provided with MCBs to Switch ON/OFF
+a. Onboard Kavach
+b. Brake Interface Unit (BIU)
+c. LP-OCIPs.
+II.
+The main part of Onboard Kavach is a computer called the Vital
+Computer. It's like the brain of the Onboard Kavach system, controlling
+how it works with the rest by interfacing with the locomotive and its
+subsystems.
+III.
+Onboard Kavach Vital computer receives CAB control inputs from the
+locomotive, which provides Onboard Kavac
+
+Kavach Vital computer receives CAB control inputs from the
+locomotive, which provides Onboard Kavach two important things:
+a. Which cab of the train the LP is controlling from
+b. The direction in which train is moving based on reverser
+IV.
+Two Loco Pilot – Operation cum Indication Panels (LP-OCIPs) are
+installed in the locomotive cabs. These LP-OCIPs are connected to the
+onboard Kavach vital computer to display relevant information to the
+loco pilots. Using the LP-OCIPs, loco pilots can monitor
+
+uter to display relevant information to the
+loco pilots. Using the LP-OCIPs, loco pilots can monitor the status and
+activities of the onboard Kavach system.
+V.
+On top of the train engine, the following antennas are installed:
+a. Radio Antennae:
+i.
+Two for receiving signals (Rx)
+ii.
+Two for sending signals (Tx)
+b.
+GNSS/GSM antenna
+VI.
+Each pair of radio antennas on the train is connected to an individual
+radio modem, enabling the train to transmit and receive information via
+radio communication.
+
+vidual
+radio modem, enabling the train to transmit and receive information via
+radio communication.
+VII.
+Each GNSS antenna connects to a dedicated GNSS module, ensuring
+that all Kavach units, both on the train and along the tracks, operate in
+synchronized time.
+VIII.
+Two RFID antennas/Readers mounted underneath the train read the
+track-embedded RFID tags, enabling the train's vital computer to
+determine its precise location as it moves along the track.
+IX.
+Two directional pulse generators, each
+
+ermine its precise location as it moves along the track.
+IX.
+Two directional pulse generators, each mounted on a different wheel
+and connected to the onboard Kavach system, monitor the speed and
+distance.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+8
+
+DRAFT
+X.
+The onboard Kavach interfaces with the brake system through the Brake
+Interface Unit (BIU), allowing it to apply Normal Service Brake(NSB), Full
+Service Brake (FSB), and Emergency Brake(EB). In the case of a
+locomotive operating as a light engine, the BIU also activates the
+Independent Brake (SA9) interface to generate Brake Cylinder Pressure
+up to the maximum value corresponding to the loco's independent brake.
+XI.
+An Isolation switch with "Service position" and "Isolated position"
+set
+
+oco's independent brake.
+XI.
+An Isolation switch with "Service position" and "Isolated position"
+settings is installed.
+a. When the switch is in the "Isolated position," it disables Kavach
+commands from the BIU to the brake system and also disables
+the traction cut-off feature.
+a. When this switch is kept in “Service position”, then it enables
+activation of Brake commands from the BIU and also enables
+traction cut-off feature whenever brake commands are issued
+from Onboard Kavach.
+XII.
+Manual Is
+
+bles
+traction cut-off feature whenever brake commands are issued
+from Onboard Kavach.
+XII.
+Manual Isolation cocks are installed in the BP pipeline named as
+EM(Emergency Magnet Valve Isolation) cock
+and MR line(incase of
+Diesel/Electric locomotives equipped with IRAB brake system and
+Conventional EMUs only) . Micro switches monitor whether the cocks are
+in the cut-off position or open position.
+Figure 2: Onboard Kavach illustration diagram
+III.
+Features Of Onboard Kavach
+Kavach is designed to pro
+
+ure 2: Onboard Kavach illustration diagram
+III.
+Features Of Onboard Kavach
+Kavach is designed to provide the following functionalities:
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+9
+
+DRAFT
+➢IR-ATP-"Indian Railway Automatic Train Protection System (Kavach)” is
+radio communication based electronic control system to
+○
+Prevent Signal Passing at Danger (SPAD),
+○
+Reduce consequences arising out of Signal Passing at Danger
+(SPAD) including Collision by stopping train within adequate
+distance,
+○
+Prevent over-speeding by automatically activating the train's
+braking system if the loco pilot fails to adhere to the prescribed
+speed limits.
+➢Cab signaling (On-board display of Signal aspe
+
+ilot fails to adhere to the prescribed
+speed limits.
+➢Cab signaling (On-board display of Signal aspect in CAB)
+➢Over Speed monitoring
+➢Permanent Speed Restrictions (PSR) monitoring
+➢Turn out speed monitoring
+➢SOS generation during unusual stoppage in Block section
+➢Manual SOS generation
+➢Head on and rear end collision prevention
+➢Standstill and roll-away protection
+➢LC gates alert in advance to loco pilot with automatic whistling feature
+IV.
+Working Of Onboard Kavach
+I.
+Track Information Reading
+
+co pilot with automatic whistling feature
+IV.
+Working Of Onboard Kavach
+I.
+Track Information Reading:
+➢Onboard Kavach reads track information (kilometer, position, track ID,
+etc.) from track-side pre-programmed RFID tags through RFID readers.
+➢All RFID tags are duplicated to increase availability.
+II.
+Direction Determination:
+➢Direction
+is
+established
+after
+reading
+two
+consecutive tag sets
+containing kilometer information.
+➢Onboard Kavach determines the direction as:
+○
+Nominal: if in the directi
+
+ing kilometer information.
+➢Onboard Kavach determines the direction as:
+○
+Nominal: if in the direction of travel, kilometers are incrementing.
+○
+Reverse: if in the direction of travel, kilometers are decrementing.
+III.
+Movement Authority and Signal Information:
+➢Based on the current locomotive position, track ID, and train movement
+direction, the stationary Kavach system provides the following:
+○
+Movement authority
+○
+Signal information
+○
+Gradient information
+LOCO PILOT OPERATING MANUAL FOR KAVAC
+
+Movement authority
+○
+Signal information
+○
+Gradient information
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+10
+
+DRAFT
+○
+PSR, Turnout speed with distance (e.g., loop line speed control)
+IV.
+Target Monitoring and Speed Control:
+➢Onboard Kavach decides the most restrictive target based on signal
+information from Stationary Kavach and available track data.
+➢Kavach determines the safe permitted speed to the loco pilot based on
+current train speed and distance from the target duly considering the
+braking characteristics of the train.
+➢If the loco pilot exceeds the speed limit, Kavach applies the appropriate
+bra
+
+ristics of the train.
+➢If the loco pilot exceeds the speed limit, Kavach applies the appropriate
+brakes to ensure the train approaches the target location within the
+specified speed limit, in accordance with the configuration parameters.
+V.
+Ceiling Speed Monitoring:
+➢When the target distance is far away:
+○
+Onboard Kavach monitors the most restrictive speed (minimum
+of section speed, loco max speed, train max speed, mode-related
+speed, loop line speed and PSR).
+○
+This speed limit is displayed to
+
+, train max speed, mode-related
+speed, loop line speed and PSR).
+○
+This speed limit is displayed to the loco pilot on LP-OCIP as Max
+Permitted Speed (e.g., 100 KMPH).
+★If train speed exceeds the permitted limit by 2 KMPH, an
+Over-speed alarm is issued.
+★If train speed exceeds the permitted limit by 5 KMPH, the
+Normal service brake is applied.
+★If train speed exceeds the permitted limit by 8 KMPH, the
+Full service brake is applied.
+★If train speed exceeds the permitted limit by 10 KMPH,
+the Emerg
+
+the
+Full service brake is applied.
+★If train speed exceeds the permitted limit by 10 KMPH,
+the Emergency brake is applied.
+Note: These speed limit parameters are configurable and vary for different
+types of rolling stock
+VI.
+Brake Characteristics:
+➢The Onboard Kavach acquires the braking characteristics through
+LP-OCIP as per the selections made by Loco Pilot at the start of mission
+or whenever there is change in train consist.
+➢On formation of a new train, Onboard Kavach unit prompts Loco Pilot
+
+ere is change in train consist.
+➢On formation of a new train, Onboard Kavach unit prompts Loco Pilot
+for selecting the train consist.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+11
+
+DRAFT
+Figure 3: Brake Characteristic
+➢The braking logic of the Onboard Kavach is intelligent which is based
+on the brake characteristics of the train and depending upon the speed
+of the train, gradient of the location & the target, Onboard Kavach
+decide which type(s)of brake and when to be applied to stop the train
+short of safe distance or control the speed to desired.
+➢In case the distance available between the train and target at the
+instance of perceived danger is not adequate, Onboard Kavac
+
+able between the train and target at the
+instance of perceived danger is not adequate, Onboard Kavach applies
+maximum brakes to reduce the speed of the train as much as possible
+under the circumstances so that impact can be minimized.
+➢On detection of an incident of a stop signal subsequently put back to
+ON, the train stops with Train Trip through application of Emergency
+Brakes at least after crossing the Signal if not earlier.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+12
+
+ssing the Signal if not earlier.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+12
+
+DRAFT
+SECTION#2: LOCO PILOT - OPERATION CUM INDICATION
+PANEL (LP-OCIP)
+I.
+LP-OCIP Unit Front Panel
+The LP-OCIP screen with Loco Pilot controls is as shown in Figure.3 and 4
+below:
+Figure 4: LP-OCIP panel
+Figure 5: Default screen of LP-OCIP
+Description of various fields on the LP-OCIP:
+I.
+Target Type: Specifies the type of target ahead, such as a speed
+restriction, signal aspect, or other operational limits.
+II.
+LOCO ID: The unique identification number of the locomotive.
+III.
+Current Speed: Disp
+
+al limits.
+II.
+LOCO ID: The unique identification number of the locomotive.
+III.
+Current Speed: Displays the train's current speed in Kilometers Per Hour
+(Kmph).
+IV.
+Over Speed: Indicates whether the train is exceeding the permitted
+speed limit. The speed indicator needle turns to red along with an audio
+buzzer.
+V.
+Permit Speed: The maximum allowable speed in the current section of
+the track, determined by track conditions and regulatory requirements.
+VI.
+Target Speed: The speed the train should
+
+rmined by track conditions and regulatory requirements.
+VI.
+Target Speed: The speed the train should aim to achieve, often
+determined by upcoming track conditions or signal aspects.
+VII.
+Target Distance: The distance to the next significant target, such as a
+signal, speed restriction, or stop point, measured in meters.
+VIII.
+Brake Applied: Indicates application of brake by Kavach in red colour.
+The symbol thickness increases with the increasing brake application
+LOCO PILOT OPERATING MANUAL FOR K
+
+e symbol thickness increases with the increasing brake application
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+13
+
+DRAFT
+type - Normal Service Brake (NSB), Full Service Brake (FSB) and
+Emergency Brake (EB).
+Type of Brake
+Symbol Displayed on LP-OCIP
+Normal Service Brake(NSB)
+Full Service Brake(FSB)
+Emergency Brake(EB)
+IX.
+Deceleration Constant: The rate at which the train decelerates when
+brakes are applied, often represented as a numerical value. This data is
+derived by onboard Kavach based on the train configuration selected by
+Loco Pilot.
+X.
+Context Message: Provides additional information or warnings rele
+
+uration selected by
+Loco Pilot.
+X.
+Context Message: Provides additional information or warnings relevant
+to the current operational context, such as approaching Turnouts, level
+crossing gates, Permanent Speed Restrictions (PSRs), failure messages,
+acknowledgment messages etc.
+XI.
+Functional Keys: These keys are used for selection of train configuration
+and Kavach operation modes such as Reverse, Shunt, Isolation etc.
+XII.
+Train Length: Indicates the train length computed by Kavach. This is
+gener
+
+hunt, Isolation etc.
+XII.
+Train Length: Indicates the train length computed by Kavach. This is
+generally set to a preset value with initial train configuration and
+updated after crossing Advance Starter signal at each station.
+XIII.
+Loco Location: The current geographical location or positional data of
+the locomotive (chainage in decameters)
+XIV.
+Mode Name: The current operational mode of the train, such as "Full
+Supervision," "Shunting," or "Staff Responsible" etc.
+XV.
+Mode Symbol: Indicates th
+
+n, such as "Full
+Supervision," "Shunting," or "Staff Responsible" etc.
+XV.
+Mode Symbol: Indicates the symbol of current mode of operation of the
+train such as "Full Supervision," "Shunting," or "Staff Responsible" etc.
+XVI.
+Communication with Station: Indicates the strength of radio signal with
+stationary Kavach of Station / LC / IB / ABS Huts.
+XVII.
+Movement Authority: The maximum distance the train is authorized to
+travel without danger.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+14
+
+ain is authorized to
+travel without danger.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+14
+
+DRAFT
+XVIII.
+Signal Aspect: This field displays the current aspect of the approaching
+signal.
+XIX.
+Tag Indication: Indicates the status of the last three normal RFID tags
+read. Green color indicates tag read and red color indicates tag not read
+II.
+Onboard Kavach Counters
+The
+Onboard
+Kavach
+Electronic
+Unit
+is
+equipped
+with
+three
+6-digit
+electromechanical non-resettable counters. These counters record specific
+operations as follows:
+ISOLATION MODE COUNTER
+○
+Increments when: Isolation mode is sele
+
+ord specific
+operations as follows:
+ISOLATION MODE COUNTER
+○
+Increments when: Isolation mode is selected
+○
+Purpose: Tracks frequency of Isolation mode usage
+TRIP/OVERRIDE MODE COUNTER
+○
+Increments when: Onboard Kavach enters Trip mode OR Override
+mode is selected by Loco Pilot
+○
+Purpose: Monitors occurrences of Trip and Override modes
+SOS COUNTER
+○
+Increments when:
+■
+SOS is sent to other Onboard Kavach units
+■
+SOS message is received from Kavach units
+○
+Purpose: Records frequency of emergency ev
+
+avach units
+■
+SOS message is received from Kavach units
+○
+Purpose: Records frequency of emergency events
+III.
+Onboard Kavach System Indications
+The Onboard Kavach unit provides critical status information via LP-OCIP.
+Two key indications are displayed (as shown in Figure 5):
+Figure 6: System Indicators on the LP-OCIP
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+15
+
+DRAFT
+SYSTEM HEALTHY/FAULTY STATUS:
+○
+LP-OCIP displays the System health status as Green as long as
+the system is healthy otherwise it will be displayed as Red.
+SOS STATUS
+○
+Green: No SOS activity
+○
+Red: SOS received or transmitted
+IV.
+OPERATING MODES
+a) Standby Mode
+Name of mode
+Standby (SB)
+Symbol of mode
+Entry
+into
+the
+mode
+●
+Default mode. When Onboard Kavach is switched on
+(after completing the booting process), it enters this
+mode.
+●
+When the loco pilot places the Reverser Handle or BL
+Key
+
+e booting process), it enters this
+mode.
+●
+When the loco pilot places the Reverser Handle or BL
+Key in Neutral position, Kavach enters Standby mode.
+●
+When
+the EM cock is closed also Kavach enters
+Standby mode.
+What
+Kavach
+does or allows in
+this mode
+●
+It is in the Stand By mode that Onboard Kavach
+awakes. The loco/train cannot be moved in this mode i.e.
+Kavach performs standstill supervision and brakes are
+applied whenever speed is non-zero.
+On successful
+automatic self-tests(including brake te
+
+brakes are
+applied whenever speed is non-zero.
+On successful
+automatic self-tests(including brake test) and selection
+of train configuration by Loco Pilot, it prompts for Staff
+Responsible or Shunt Mode to Loco Pilot.
+Exit
+from
+the
+mode
+●
+When the loco pilot selects the train configuration and
+chooses either Staff Responsible or Shunt mode based
+on operational requirements.
+Responsibility of
+Loco Pilot
+●
+Observe for Standby mode after power on/booting up of
+Onboard Kavach. Wait for successful se
+
+Pilot
+●
+Observe for Standby mode after power on/booting up of
+Onboard Kavach. Wait for successful self test and for
+prompt in the LP-OCIP to carry out train configuration.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+16
+
+DRAFT
+b) Staff Responsible (SR) Mode
+Name of mode
+Staff Responsible (SR)
+Symbol
+of
+mode
+Entry
+into
+the
+mode
+●
+After completion of automatic self-test and selection of
+Train Configuration in Standby mode, Onboard Kavach
+prompts Loco Pilot to select SR or SHNT modes. LP to
+select soft keys SR and CNFM on LP-OCIP to enter SR
+mode.
+●
+Onboard Kavach transitions from Limited Supervision
+mode to SR mode when the system doesn’t receive the
+necessary route information.
+What
+Kavach
+does or allows
+in this
+
+when the system doesn’t receive the
+necessary route information.
+What
+Kavach
+does or allows
+in this mode
+In this mode
+●
+Supervises Loco Ceiling Speed (Maximum Permissible
+speed),
+●
+Roll back, Reverse Movement protection,
+●
+Head on & Rear End collisions prevention.
+●
+Kavach will supervise Save Our Soul (SoS) generation
+and emergency stop with Save Our Soul (SoS) reception,
+if
+Track
+Identification
+Number
+(TIN),
+direction
+and
+absolute location of the loco information is available.
+Exit
+from
+the
+mod
+
+umber
+(TIN),
+direction
+and
+absolute location of the loco information is available.
+Exit
+from
+the
+mode
+●
+Automatically when the loco enters into LS or FS mode if
+the required conditions are fulfilled
+Responsibility
+of Loco Pilot
+●
+The Onboard Kavach shall assist in supervising a Loco
+ceiling speed.
+●
+Loco pilot to run the train under his own responsibility
+either in Kavach territory or non-Kavach territory.
+c) Limited Supervision (LS) Mode
+Name of mode
+Limited Supervision (LS)
+Symbol of mode
+LOCO
+
+erritory.
+c) Limited Supervision (LS) Mode
+Name of mode
+Limited Supervision (LS)
+Symbol of mode
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+17
+
+DRAFT
+Entry
+into
+the
+mode
+Only Automatically–
+●
+From SR mode when Onboard Kavach receives only
+RFID Tag data or communication from the station( not
+both).
+●
+When Onboard Kavach is in FS mode and does not
+receive
+complete
+communication
+from
+the
+Station
+Kavach or when data from consecutive two normal RFID
+tags is not received, the Onboard Kavach enters LS
+mode.
+●
+During start of the mission, Onboard kavach continues
+in LS mode even after receiving RFID tag data and
+communication from the station t
+
+kavach continues
+in LS mode even after receiving RFID tag data and
+communication from the station till one stop signal is
+passed in OFF condition.
+What
+Kavach
+does or allows in
+this mode
+●
+Supervises Loco Ceiling Speed.
+●
+If Track Data is Valid & Traffic Direction is Known, it
+Supervises Section Speed, Permanent Speed Restriction
+(PSR) & Collision Targets.
+●
+It obeys Save Our Soul (SoS) from Station, if Loco is
+within
+3Km
+radius,
+provided
+RF communication is
+established
+●
+If Radio communication
+
+ion, if Loco is
+within
+3Km
+radius,
+provided
+RF communication is
+established
+●
+If Radio communication is good, supervise Movement
+Authority & Turnouts speed limit.
+●
+It Supervises Roll away & Reverse Movement protection.
+Exit
+from
+the
+mode
+●
+The Onboard Kavach unit shall exit from Limited
+Supervision(LS)
+mode
+and
+enter
+into
+Full
+Supervision mode when all train and track data
+including Static Speed Profile up to 3000m or
+movement authority, whichever is less, required for
+a complete supervision of
+
+Profile up to 3000m or
+movement authority, whichever is less, required for
+a complete supervision of the train is available.
+●
+When
+both
+tag
+data
+and
+communication
+is
+completely lost, then Onboard Kaach will transit to
+SR mode.
+Responsibility of
+loco pilot
+●
+While transiting from FS mode to LS mode, Loco Pilot
+must acknowledge LP-OCIP messages by pressing the
+ACK/CANCEL
+button,
+failing
+which
+brakes
+will
+be
+applied.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+18
+
+s
+will
+be
+applied.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+18
+
+DRAFT
+●
+Similarly During transiting from LS mode to SR mode,
+Loco Pilot must acknowledge LP-OCIP messages by
+pressing the ACK/CANCEL button on the LP-OCIP,
+failing which brakes will be applied.
+d) Full Supervision (FS) Mode
+Name of mode
+Full Supervision (FS)
+Symbol of mode
+Entry
+into
+the
+mode
+●
+Automatically, when Onboard Kavach receives complete
+communication
+from
+the
+station
+Kavach
+and
+also
+receives inputs from two consecutive RFID tags (though
+not necessarily in the same sequence). In case of
+
+ives inputs from two consecutive RFID tags (though
+not necessarily in the same sequence). In case of start of
+mission, in addition to the above conditions, the train has
+to pass one stop signal in OFF condition.
+What
+Kavach
+does or allows in
+this mode
+In this mode in addition to protections offered in LS mode,
+Kavach:
+●
+Supervises
+Movement
+Authority,
+Turnout
+speeds
+received from Linked station
+●
+Performs Train Length Measurement
+●
+Obeys Loco specific SoS from Linked Station
+●
+Displays on the LP-
+
+erforms Train Length Measurement
+●
+Obeys Loco specific SoS from Linked Station
+●
+Displays on the LP-OCIP: the train speed, the permitted
+speed, the target distance and the target speed.
+Onboard
+Kavach
+is
+fully
+responsible
+for
+the
+speed
+supervision train/loco.
+Exit
+from
+the
+mode
+Automatically:
+●
+To LS mode if the Onboard Kavach does not receive the
+required data/communication from RFID tags OR station
+Kavach as it moves along
+●
+To Trip mode if the loco crosses the signal in ON
+condition
+●
+When th
+
+ion
+Kavach as it moves along
+●
+To Trip mode if the loco crosses the signal in ON
+condition
+●
+When the loco pilot manually selects the Override,
+Shunt, or Reverse modes.
+Responsibility of
+Loco Pilot
+●
+To prevent unintended brake application by Kavach,
+maintain control of the train within the permitted speed
+limits displayed on the LP-OCIP.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+19
+
+DRAFT
+e) Override Mode
+Name of mode
+Override (OV)
+Symbol of mode
+Entry
+into
+the
+mode
+●
+Selected by the loco pilot by pressing the soft keys
+OVRD followed by CNFM through LP-OCIP, normally
+when the loco pilot sees a genuine reason to override
+the signal in ON condition when MA<200 meters & the
+Train is at standstill.
+What
+Kavach
+does or allows in
+this mode
+●
+The Onboard Kavach will display the train speed and
+supervise train movements against the ceiling override
+speed (default 15kmph)
+●
+If MA is
+
+n speed and
+supervise train movements against the ceiling override
+speed (default 15kmph)
+●
+If MA is extended or after override timeout (Default:
+240s), Section Speed is known & Traffic direction Known,
+it will transition to Full Supervision Mode
+●
+It Obeys SoS from Stationary TCAS
+●
+Radio Transmission is Active, if it is in Kavach Area.
+●
+Enables the loco pilot to pass the Signal at Danger.
+Responsibility of
+loco pilot
+●
+Loco pilot should check occupancy of the track ahead
+when moving in this m
+
+nsibility of
+loco pilot
+●
+Loco pilot should check occupancy of the track ahead
+when moving in this mode because the track might be
+occupied
+Exit
+from
+the
+mode
+●
+Automatically, to Onsite Mode (OS) when the loco/train
+crosses the signal at ON
+Responsibility Of
+Loco Pilot
+●
+Loco Pilot has to ensure the selection of Override Mode
+only after obtaining/ascertaining proper authority to
+Pass the Signal at Danger.
+f) On-sight Mode
+Name of mode
+On-sight (OS)
+Symbol of mode
+Entry
+into
+the
+mode
+●
+Automatica
+
+Danger.
+f) On-sight Mode
+Name of mode
+On-sight (OS)
+Symbol of mode
+Entry
+into
+the
+mode
+●
+Automatically by Onboard Kavach, when Override is
+selected and signal is crossed at ON.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+20
+
+DRAFT
+What
+Kavach
+does or allows in
+this mode
+●
+Enables the train to enter into a track section that could
+be already occupied by another train.
+●
+Onboard Kavach will supervise train movements against
+the ceiling speed of On-sight mode (default is 15kmph).
+●
+Onboard Kavach obeys SOS from Stationary TCAS.
+Exit
+from
+this
+mode
+●
+Last Stop Signal/ Gate Signal/Other type of Signals:
+when loco passes LSS+200m or Gate signal+250m, for
+all other types of signals after crossing the next signal at
+OFF asp
+
+S+200m or Gate signal+250m, for
+all other types of signals after crossing the next signal at
+OFF aspect (other than Danger).
+●
+IB
+Home
+and Auto signals: when loco passes IB
+Home+200m, Auto Signals after crossing the next signal
+at OFF aspect (other than Danger).
+Responsibility of
+Loco Pilot
+●
+Loco
+pilot
+is
+responsible
+for
+checking
+the
+track
+occupancy in this mode while moving the train, because
+the track may be occupied.
+g) Trip Mode
+Name of mode
+Trip (TR)
+Symbol of mode
+Entry
+into
+the
+mode
+●
+Wh
+
+e track may be occupied.
+g) Trip Mode
+Name of mode
+Trip (TR)
+Symbol of mode
+Entry
+into
+the
+mode
+●
+When an Onboard Kavach is in Full Supervision / Limited
+Supervision mode and passes a stop signal at ON or
+End of Authority+30m, the Onboard Kavach unit shall
+enter into Trip Mode.
+Note:
+●
+Application of emergency brakes and train trip are two
+different things. For example, exceeding the permitted
+speed leads to application of the emergency brakes, but
+as
+long
+as
+the
+train
+does
+not
+pass
+the
+End of
+A
+
+ed leads to application of the emergency brakes, but
+as
+long
+as
+the
+train
+does
+not
+pass
+the
+End of
+Authority(EOA), it is not a train trip.
+●
+Trip can happen in any of the following cases:
+○
+Improper
+operation
+by
+Loco
+Pilot(continuous
+attempts to move the train near foot of signal)
+○
+Due to malfunctioning of Onboard Kavach
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+21
+
+DRAFT
+○
+Signal flying back to danger on the approach of
+train
+where
+there
+is
+no
+adequate
+braking
+distance.
+What
+Kavach
+does or allows in
+this mode
+●
+Applies Emergency Brake continuously to bring the train
+to a halt, if the train is moving. Performs standstill
+supervision. Stationary Kavach Sends SOS to Onboard
+Kavach until trip mode is acknowledged.
+Exit
+from
+the
+mode
+●
+Loco Pilot has to acknowledge by pressing P_TRIP
+followed by CNFM soft keys on LP-OCIP, after which
+Emergency brake (EB) is rel
+
+ge by pressing P_TRIP
+followed by CNFM soft keys on LP-OCIP, after which
+Emergency brake (EB) is released.
+Responsibility of
+Loco Pilot
+●
+During the malfunction of Onboard Kavach, it shall be
+isolated and put back to service, when it is confirmed
+safe for operations.
+●
+To release EB, at standstill position Loco Pilot has to
+acknowledge by pressing P_TRIP followed by CNFM soft
+keys on LP-OCIP.
+h) Post Trip Mode
+Name of mode
+Post-Trip (PT)
+Symbol of mode
+Entry
+into
+the
+mode
+●
+After application of
+
+ost Trip Mode
+Name of mode
+Post-Trip (PT)
+Symbol of mode
+Entry
+into
+the
+mode
+●
+After application of Emergency Brakes in Trip Mode,
+Onboard Kavach shall come to standstill. To start the
+Onboard Kavach from Standstill Loco Pilot shall select
+Post Trip Mode.
+●
+The Post Trip mode shall be entered by pressing P_TRIP
+followed by CNFM soft keys on LP-OCIP, after which
+Emergency brake (EB) is released.
+What
+Kavach
+does or allows in
+this mode
+●
+Onboard Kavach shall supervise the train against a
+ceiling s
+
+at
+Kavach
+does or allows in
+this mode
+●
+Onboard Kavach shall supervise the train against a
+ceiling speed of Post Trip Mode (Default: 15 Kmph)
+Exit
+from
+the
+mode
+●
+Automatically by Onboard Kavach into Full Supervision
+mode If valid MA is received , Section Speed is known &
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+22
+
+DRAFT
+Traffic direction Known and when the approaching Stop
+Signal is crossed at OFF or a predefined distance (Default:
+250m) is traveled.
+Responsibility of
+Loco Pilot
+●
+To release EB, Loco Pilot has to select P_TRIP mode
+followed by CNFM keys and proceed with 15 kmph.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+23
+
+DRAFT
+i) Non Leading Mode
+Name of mode
+Non-Leading (NL)
+Symbol of mode
+Entry
+into
+the
+mode
+●
+Selected by the loco pilot through a Rotary Switch on
+the LP-OCIP. Must be selected when the train/loco is
+at standstill.
+What
+Kavach
+does or allows in
+this mode
+●
+The Non-Leading mode is defined to manage the
+Onboard Kavach unit of a slave engine that is either
+electrically
+coupled
+to
+the
+leading
+engine
+(remote
+controlled) or NOT electrically coupled to the leading
+engine
+(not
+remote
+controlled).It
+shal
+
+remote
+controlled) or NOT electrically coupled to the leading
+engine
+(not
+remote
+controlled).It
+shall
+be
+entered
+manually into non leading mode by the Loco pilot when
+the train is at standstill.
+●
+Onboard Kavach will not actively supervise the train, but
+it will periodically transmit its status information to the
+Kavach network.
+Exit
+from
+the
+mode
+●
+By loco pilot, by changing the rotary switch on the
+LP-OCIP from Non-Leading to Leading position.
+Responsibility of
+Loco Pilot
+●
+This mode should no
+
+the
+LP-OCIP from Non-Leading to Leading position.
+Responsibility of
+Loco Pilot
+●
+This mode should not be selected in a single loco/train
+formation.
+●
+However, if a Loco pilot selects this mode in a single
+loco/train formation, it must be noted that Kavach will
+not perform any train supervision and will not provide
+any protection to the loco/train.
+●
+The entire responsibility for the safety of the train rests
+on the loco pilot.
+j) Reverse Mode
+Name of mode
+Reverse (RV)
+Symbol of mode
+LOCO PILOT O
+
+train rests
+on the loco pilot.
+j) Reverse Mode
+Name of mode
+Reverse (RV)
+Symbol of mode
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+24
+
+DRAFT
+Entry
+into
+the
+mode
+●
+Selected by loco pilot by pressing soft keys REV
+followed by CNFM on the LP-OCIP.
+●
+Can be selected only when loco is at standstill.
+What
+Kavach
+does or allows
+in this mode
+●
+The Reverse mode allows the loco pilot to change the
+direction of movement of the train and drive from the
+same cab, i.e. the train orientation remains unchanged.
+●
+The
+Onboard
+Kavach
+unit
+shall
+supervise
+train
+movements against a ceiling speed (Default: 15 Kmph),
+distance (Default: 500m) and tim
+
+pervise
+train
+movements against a ceiling speed (Default: 15 Kmph),
+distance (Default: 500m) and time out (Default: 300s)
+for which reverse movement is allowed.
+●
+It Obeys SoS from Stationary Kavach. However, if the
+TIN (Track Identification No) changes while the train is
+reversing, Station Kavach will generate loco specific
+SOS and brakes will be applied.
+Exit
+from
+the
+mode
+●
+Automatically by Onboard Kavach when it detects
+movement of loco/train in the forward direction.
+Responsibility of
+Loco
+
+oard Kavach when it detects
+movement of loco/train in the forward direction.
+Responsibility of
+Loco Pilot
+●
+Loco Pilot has to select reverse mode for carrying
+pushback of the train under emergency situations
+otherwise Kavach will not allow reverse movement of
+the train and performs roll back protection.
+k) Shunt Mode
+Name of mode
+Shunt (SH)
+Symbol of mode
+Entry
+into
+the
+mode
+●
+Manually selected by loco pilot from Standby, Staff
+Responsible,
+Limited
+Supervision
+and
+Full
+Supervision mode by pressi
+
+loco pilot from Standby, Staff
+Responsible,
+Limited
+Supervision
+and
+Full
+Supervision mode by pressing SHNT followed by
+CNFM soft keys on LP-OCIP. Can be selected only
+when loco is at standstill.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+25
+
+DRAFT
+What
+Kavach
+does or allows
+in this mode
+●
+Kavach allows the loco pilot to perform shunting
+operations and performs its functions at a limited speed
+of 15kmph.
+●
+It obeys SOS only from Stationary Kavach.
+Exit
+from
+the
+mode
+●
+Manually, by the loco pilot, again by pressing the soft
+keys SHNT followed by CNFM on the LP-OCIP at
+standstill.
+Responsibility of
+loco pilot
+●
+Loco pilot must carry out the shunting operations as
+per station working rules and general and subsidiary
+rules
+l) System Fail
+
+the shunting operations as
+per station working rules and general and subsidiary
+rules
+l) System Failure Mode
+Name of mode
+System Failure (SF)
+Symbol of mode
+Entry
+into
+the
+mode
+●
+Automatically, in case of any fault in the Onboard
+Kavach which affects the functioning of Onboard
+Kavach
+What
+Kavach
+does or allows in
+this mode
+●
+Onboard
+Kavach
+applies
+Emergency
+Brakes
+continuously.
+Exit
+from
+the
+mode
+●
+The system recovers automatically from this mode if
+the failure is such that recovery is possible.
+
+●
+The system recovers automatically from this mode if
+the failure is such that recovery is possible. If recovery
+is not possible, a loco pilot may isolate Kavach by
+operating
+ISOLATION switch to Isolation position
+along
+with
+closing
+the
+EM
+&
+MR
+manual
+cocks(wherever
+applicable)
+and
+Onboard
+Kavach
+transits into ISOLATION mode.
+Responsibility of
+Loco Pilot
+●
+The loco pilot shall isolate the Kavach system by
+following the Switch OFF procedure as mentioned in
+SECTION#3(II)
+and
+run
+the
+train
+under
+hi
+
+ystem by
+following the Switch OFF procedure as mentioned in
+SECTION#3(II)
+and
+run
+the
+train
+under
+his/
+her
+responsibility.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+26
+
+DRAFT
+m)Isolation Mode
+Name of mode
+Isolation (IS)
+Entry
+into
+the
+mode
+●
+By loco pilot: By operating the Isolation switch to
+ISOLATION position. For this mode to be effective, loco
+pilots
+must
+also
+operate
+the
+EM
+and
+MR
+cocks(wherever applicable) to Close position.
+What
+Kavach
+does or allows in
+this mode
+●
+Onboard Kavach sends message to Network Monitoring
+System Periodically regarding its status / mode
+Exit
+from
+the
+mode
+●
+Manually by loco pilot, by operating the Isolation Switch
+to Service pos
+
+/ mode
+Exit
+from
+the
+mode
+●
+Manually by loco pilot, by operating the Isolation Switch
+to Service position and operating the EM and MR
+cocks(wherever applicable) to Open position.
+Responsibility of
+the loco pilot
+●
+This mode should not be selected unless in extremely
+necessary conditions. Kavach will not perform any
+train supervision and will not provide any protection to
+the loco/train.
+●
+The entire responsibility for the safety of the train rests
+on the loco pilot.
+LOCO PILOT OPERATING MANUAL F
+
+re responsibility for the safety of the train rests
+on the loco pilot.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+27
+
+DRAFT
+V.
+Mode Transition
+Figure 7: Mode Transitions in Kavach Specification Ver. 3.2
+Mode Transition
+Procedure
+Standby
+to
+Staff
+Responsible Mode
+●
+After Train configuration, Onboard Kavach prompts for
+selection. Upon selecting soft keys SR and CNFM on
+LP-OCIP, Onboard Kavach enters SR mode.
+Staff
+Responsible
+to
+Limited
+Supervision Mode:
+●
+This transition happens automatically when Onboard
+Kavach reads two RFID tags and RF communication is
+available with Station/LC Kavach.
+Limited
+Supervision to
+
+eads two RFID tags and RF communication is
+available with Station/LC Kavach.
+Limited
+Supervision to Full
+Supervision Mode:
+●
+This transition happens automatically when Onboard
+Kavach in LS mode passes one stop signal at off
+signal.
+Full Supervision to
+Limited
+Supervision Mode:
+●
+This
+transition
+happens
+automatically
+when
+the
+Onboard Kavach fails to read to consecutive Normal
+tags
+or
+RF
+communication is not available with
+Station/LC/ABS
+Kavach
+in
+the
+communication
+mandatory zone for 30 seconds.
+●
+
+on is not available with
+Station/LC/ABS
+Kavach
+in
+the
+communication
+mandatory zone for 30 seconds.
+●
+Loco
+Pilot
+has
+to
+acknowledge
+within
+15s(configurable)
+to
+avoid
+brake
+application
+by
+Kavach.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+28
+
+DRAFT
+Limited
+Supervision
+to
+Staff
+Responsible
+Mode:
+●
+Upon entering Non-Kavach territory, loco automatically
+transits to SR mode.
+●
+This transition also happens when Loco Onboard
+Kavach fails to read more than two consecutive
+Normal tags.
+●
+RF
+communication
+is
+not
+available
+with
+Station/LC/ABS Kavach in communication mandatory
+zone for 30 sec and section speed information is not
+available
+with
+onboard
+Kavach
+for
+3000m
+or
+Movement authority distance (whichever is less).
+●
+Loco
+Pilot
+has
+to
+be
+ac
+
+board
+Kavach
+for
+3000m
+or
+Movement authority distance (whichever is less).
+●
+Loco
+Pilot
+has
+to
+be
+acknowledged
+within
+15s(configurable)
+to
+avoid
+brake
+application
+by
+Kavach.
+Full Supervision to
+Staff
+Responsible
+Mode
+●
+Upon entering Non-Kavach territory, loco automatically
+transits to SR mode. Loco Pilot can also manually
+select SR mode when the loco at Standstill.
+●
+Loco
+Pilot
+has
+to
+be
+acknowledged
+within
+15s(configurable)
+to
+avoid
+brake
+application
+by
+Kavach.
+IMPORTANT: Failure to acknowledge
+
+ged
+within
+15s(configurable)
+to
+avoid
+brake
+application
+by
+Kavach.
+IMPORTANT: Failure to acknowledge any prompt within the specified 15-second
+window will result in automatic system actions as stated above.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+29
+
+DRAFT
+VI.
+Illustration for using Override mode and transition into
+Onsight mode
+Figure 8: Illustration for using Override mode and transition into Onsight mode
+●
+While the Onboard Kavach is working in FS mode, whenever any signal is
+defective and authority has been received to pass the signal at Danger or to
+pass an automatic signal at Danger, Loco Pilot has to make use of override
+mode.
+●
+Loco Pilots need to stop the train near the signal at danger i.e. within 200m
+before foot of signal (MA<200
+
+lots need to stop the train near the signal at danger i.e. within 200m
+before foot of signal (MA<200m). Loco Pilot needs to select OVRD and CNFM
+soft keys on LP-OCIP to select Override mode.
+●
+Upon selection of Override mode, Onboard Kavach will transit into override
+mode and on crossing the signal, Onboard Kavach will transit into Onsight
+mode. Loco pilots have to drive cautiously in Onsight mode while moving the
+train, because the track may be occupied.
+●
+The Onboard Kavach will transit into F
+
+while moving the
+train, because the track may be occupied.
+●
+The Onboard Kavach will transit into Full Supervision mode depending on the
+type of signal
+○
+Last Stop Signal/ Gate Signal/Other type of Signals: when loco passes
+LSS+200m or Gate signal+250m, for all other types of signals after
+crossing the next signal at OFF aspect (other than Danger).
+○
+Auto signals: when Auto Signals after crossing the next signal at OFF
+aspect (other than Danger).
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER
+
+the next signal at OFF
+aspect (other than Danger).
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+30
+
+DRAFT
+VII.
+Illustration for using Post Trip Mode
+Figure 9: Illustration for using Post Trip Mode
+●
+When an Onboard Kavach is in Full Supervision / Limited Supervision mode
+and passes a stop signal at ON or End of Authority+30m, the Onboard Kavach
+unit enters Trip Mode.
+●
+Loco Pilot(LP) has to select P_TRP and CNFM soft keys on LP-OCIP to select
+Post Trip mode. Onboard Kavach will transit into Post Trip mode and onboard
+Kavach will supervise the train movements against Post Trip mode Ceiling
+Spee
+
+Trip mode and onboard
+Kavach will supervise the train movements against Post Trip mode Ceiling
+Speed Limit (15kmph).
+●
+Onboard Kavach transits into Full Supervision mode If valid MA is received ,
+Section Speed is known & Traffic direction Known and when the approaching
+Stop Signal is crossed at OFF or a predefined distance (Default: 250m) is
+traveled.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+31
+
+ER 3.2 |
+31
+
+DRAFT
+SECTION#3: KAVACH OPERATION PROCEDURE FOR LOCO
+PILOT
+I.
+Procedure for Switching-On Onboard Kavach
+Energize the locomotive and Develop MR (above 7kg/cm2) and BP(4.8 kg/cm2)
+pressure as per the practices in vogue. Switch on the Onboard Kavach as per
+the procedure given below:
+1.
+Switch on Kavach power MCB. LP-OCIP shall boot within 2 minutes.
+Ensure the Leading/Non Leading switch available on LP-OCIP of both
+CABs in case of Locomotives and in working CAB of EMUs (if
+Leading/Non-Leading switc
+
+LP-OCIP of both
+CABs in case of Locomotives and in working CAB of EMUs (if
+Leading/Non-Leading switch is available on LP-OCIP)
+in “Leading
+Position”.
+2.
+Keep Kavach Isolation switch on NORMAL position.
+3.
+●
+IRAB: Keep MR cock and EM cock in ON(Open) position (Provided
+on BIU).
+●
+E-70: Keep EM(Vital EB) cock of both CABs (below A9 handle in
+each CAB) in ON(Open) position. Further place the IRU Bypass
+Switch of Active CAB IRU in Normal Position.
+●
+CCB 2.0: Keep EM cock (Isolation cock of SIFA magn
+
+ss
+Switch of Active CAB IRU in Normal Position.
+●
+CCB 2.0: Keep EM cock (Isolation cock of SIFA magnet valve)
+provided in CAB1 (below A9 handle) in ON(Open) position.
+●
+EMU Conventional: Keep MR cock OFF(Close) and EM cock in
+ON(Open) position.
+●
+Three Phase EMU: Keep EM cock in ON(Open) position.
+●
+VandeBharat Express: Keep EM cock in ON(Open) position.
+4.
+Once Loco pilot (LP) inserts BL or Reverser key, Onboard Kavach
+performs
+brakes
+functional
+test,
+on
+success
+it
+asks
+for
+train
+configuration
+
+ser key, Onboard Kavach
+performs
+brakes
+functional
+test,
+on
+success
+it
+asks
+for
+train
+configuration and select Staff Responsible(SR) or Shunt (SH) mode and
+press CNFM on LP-OCIP to enter into the desired mode.
+5.
+Upon failure of brake test either Loco pilot (LP) can retest the same or
+he can isolate Kavach for train movement.
+6.
+Until Loco pilot (LP) selects SR/SH mode, Onboard Kavach will be in
+Standby(SB) Mode.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+32
+
+tandby(SB) Mode.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+32
+
+DRAFT
+II.
+Procedure for Switching OFF Onboard Kavach
+1.
+Keep Kavach Isolation switch on ISOLATE position.
+2.
+IRAB: Keep MR cock and EM cock in OFF(Close) position (Provided on BIU).
+E-70: Keep EM (Vital EB) cock of both CABs (below A9 handle in each
+CAB) in OFF(Close) position. Further place the (Interface Relay Unit) IRU
+Bypass Switch of Active CAB IRU in Bypass Position.
+CCB 2.0: Keep EM cock (Isolation cock of SIFA magnet valve) provided in
+CAB1 (below A9 handle) in OFF(Close) position.
+EMU C
+
+solation cock of SIFA magnet valve) provided in
+CAB1 (below A9 handle) in OFF(Close) position.
+EMU Conventional: Keep MR cock(Open) and EM cock in OFF(Close)
+position.
+Three-Phase EMU: Keep EM cock in OFF(Close) position.
+VandeBharat Express: Keep EM cock in OFF(Close) position.
+3.
+Switch OFF power MCB.
+Note: LOCATION OF MCBs/Isolation switch/Cocks for all OEMs and
+Rolling stock is detailed in Sectio#4 II-IV
+III.
+Procedure of Brakes Functional Test and Selection of Train
+Configuration
+1. Ensure
+
+tio#4 II-IV
+III.
+Procedure of Brakes Functional Test and Selection of Train
+Configuration
+1. Ensure the Driving Cab/Desk is activated by inserting the BL key (for Electric
+Locos) or placing the Reverser handle in the forward position (for Diesel
+Locos).
+2. Ensure that Main Reservoir (MR) pressure is above 7.00 kg/cm2 and Brake
+Pipe (BP) pressure is above 4.8 kg/cm2. Onboard Kavach will wait until MR
+and BP reach these limits.
+3. Onboard Kavach performs an automatic brake test by applying Normal
+
+MR
+and BP reach these limits.
+3. Onboard Kavach performs an automatic brake test by applying Normal
+Service Brake (NSB), Full Service Brake (FSB), and Emergency Brake (EB) if
+conditions in 2 are met/fulfilled.
+4. Train Type Selection & reconfirmation to be done using Up/Dn arrows followed
+by Enter (soft keys) on LP-OCIP.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+33
+
+DRAFT
+5. After completion of the brake test, the result will be displayed on the LP-OCIP.
+If the brake test fails, the Loco Pilot can retest the brakes by pressing the ACK
+button on the LP-OCIP. Until the brake test is successful, Onboard Kavach
+remains in Standby mode. If the brake test fails continually, the Loco Pilot can
+isolate the Kavach unit as mentioned in Section#3(II).
+6. On Successful completion of Brake Test, Loco Pilot shall select Train
+Configuration. Train Configuration to be done
+
+ompletion of Brake Test, Loco Pilot shall select Train
+Configuration. Train Configuration to be done as follows:-
+SR
+PROCEDURE
+1.
+BY pressing CONFIG followed by CNFM button on LP-OCIP
+2.
+Fig. 10(1) New Configuration Train Type selection screen
+Select the Train Type from the available options.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+34
+
+DRAFT
+3.
+Fig. 10(2) New Configuration Train Type selection screen
+If we
+SELECT
+Train type as “passenger train” from the menu, a sub
+menu appears on LP-OCIP To SELECT the appropriate Passenger Train
+Configuration.
+4.
+Fig. 10(3) New Configuration Train reconfirmation screen
+RECONFIRM the selection again
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+35
+
+DRAFT
+5.
+Fig. 10(4) SR/SHNT mode selection screen
+Upon
+reconfirmation,
+Onboard
+Kavach
+Prompts
+“Select
+Staff
+Responsible or Shunt Mode”. If loco/train is being used for shunting
+operation, select the Shunt mode by PRESSING soft key SHNT followed
+by CNFM.
+Select Staff Responsible (SR) mode by PRESSING soft key SR followed
+by CNFM for any operation other than shunting. On successful selection
+of the mode, the mode name and mode symbol will be displayed on the
+LP-OCIP.
+6.
+Now, Train can be operated
+
+mode, the mode name and mode symbol will be displayed on the
+LP-OCIP.
+6.
+Now, Train can be operated with Kavach in Service. The loco pilot can
+run the loco/train by following the usual operations to run the loco/train.
+Kavach is designed to ensure compliance to IR operating guidelines
+relevant for that mode.
+Note:
+a. whenever there is a change in Formation of Train. Loco Pilot needs to do Train
+Configuration as per above procedure.
+b. Loco pilot shall correctly select train configuration at the
+
+nfiguration as per above procedure.
+b. Loco pilot shall correctly select train configuration at the following:
+i.
+At the start of mission and
+ii.
+Whenever formation changes.
+c. The above procedure will be the same for MEDHA and KERNEX. However, for
+HBL, train configuration followed by brake tests will be performed.
+d. If the loco pilot does not select the correct train configuration, safe braking
+distance by Onboard Kavach cannot be assured.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+
+distance by Onboard Kavach cannot be assured.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+36
+
+DRAFT
+IV.
+Procedure for SOS Generation and Reception:
+Manual SOS:
+Whenever a Loco pilot(LP) detects an emergency situation and wants to alert
+other trains, he has to press ‘SOS’ and ‘COMMON’ on LP-OCIP simultaneously
+to generate Manual SOS.
+Unusual Stoppage SOS:
+If a train stops in a block section in spite of line clear, Kavach asks Loco pilot(LP)
+for acknowledgement. He has to ‘Acknowledge/Cancel’ button on LP-OCIP
+within 15 seconds. If not acknowledged, Onboard Kavach broadcasts SOS
+messages a
+
+’ button on LP-OCIP
+within 15 seconds. If not acknowledged, Onboard Kavach broadcasts SOS
+messages and brakes will be applied. To cancel the already broadcasted SOS
+message, the loco pilot has to press ‘Acknowledge/Cancel’ and ‘Common’
+buttons simultaneously.
+SOS Reception consequences and normalization:
+Whenever Onboard Kavach receives SOS from any Loco/Station, trains
+approaching the originating source of SOS(within 3000 m of location of SOS
+originating station) shall apply brakes to bring the
+
+source of SOS(within 3000 m of location of SOS
+originating station) shall apply brakes to bring the train to standstill. Further
+trains can be operated upto a maximum speed of 30 Kmph till the train passes
+the source of SOS generation. The normal speed will be restored only in the
+following conditions:
+●
+SOS message is canceled by the source.
+●
+Train/Loco is moved away to more than 1500 m from the SOS source.
+●
+SOS message is not received from the source for more than 3 minutes.
+V.
+Collision Si
+
+e SOS source.
+●
+SOS message is not received from the source for more than 3 minutes.
+V.
+Collision Situations:
+➢Onboard Kavach units either directly or through Stationary Kavach unit,
+detects head on collisions, rear end collisions of trains/locos on single
+line,
+multiple
+lines
+in
+all
+possible
+scenarios based on the track
+identification, speed of the trains, train location, train length, train
+direction movement (Nominal/Reverse) etc.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+37
+
+ction movement (Nominal/Reverse) etc.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+37
+
+DRAFT
+○
+Head on Collision :
+●
+When the two Onboard Kavach units detect that the trains are
+moving in opposite directions on the same portion of track
+(through TIN), both the Kavach units detect the Head on Collision.
+●
+Message as shown below is displayed on LP-OCIP on detection of
+head on collision scenarios.
+Head on Collision with Loco 30324 in 4500m
+●
+On detection of Head on Collision, Onboard Kavach units of both
+the
+trains
+automatically
+apply
+brakes
+to
+bring
+the
+trains/locomotives to stop sh
+
+avach units of both
+the
+trains
+automatically
+apply
+brakes
+to
+bring
+the
+trains/locomotives to stop short of stipulated distance (300m in
+block section, configurable) from each other.
+●
+As soon as the head-on collision situation is over, the application
+of brakes by the Onboard unit is withdrawn.
+○
+Rear end Collision:
+●
+When the two Onboard Kavach units detect that the trains are
+moving in the same direction on the same portion of track
+(through TIN), the rear Onboard Kavach unit detects the Rear
+
+direction on the same portion of track
+(through TIN), the rear Onboard Kavach unit detects the Rear end
+Collision.
+●
+Message as shown below is displayed on LP-OCIP on detection of
+rear end collision scenarios.
+Rear End Collision with Loco 30324 in 5400m
+●
+On detection of Rear end collision, the Onboard Kavach unit of
+only the rear train automatically applies brakes to bring it to a
+stop
+short
+of
+stipulated
+distance
+(100m
+in
+block
+section,
+configurable) from the train ahead. There is no brake app
+
+tipulated
+distance
+(100m
+in
+block
+section,
+configurable) from the train ahead. There is no brake application
+in the train ahead on account of rear end collision detection.
+●
+As soon as the rear end collision situation is over, the application
+of brakes by the Onboard unit is withdrawn.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+38
+
+DRAFT
+○
+Collision Prevention in Station Section:
+●
+In Station sections, Stationary Kavach prevents train collisions
+with the help of SPAD and TIN(Track Identification Number)
+conflict.
+●
+In case two trains are detected by Stationary TCAS to be moving
+towards each other on the same TIN in the adjacent block section,
+the Stationary Kavach generates SoS commands for both the
+trains. On reception of such Loco specific SoS from Stationary
+Kavach
+Unit,
+the
+Onboard
+Kavach
+of
+both Trains triggers
+automa
+
+uch Loco specific SoS from Stationary
+Kavach
+Unit,
+the
+Onboard
+Kavach
+of
+both Trains triggers
+automatic application of brakes.
+VI.
+Train movement from Kavach section to non-Kavach
+section
+Onboard Kavach identifies the train movement from Kavach section to
+non-Kavach section by reading the exit tag. On reading the exit tag, Onboard
+Kavach will transit to Staff Responsible(SR) mode and Loco Pilot will be
+prompted to acknowledge the same by pressing the ACK/Cancel button within
+15 seconds (configur
+
+ll be
+prompted to acknowledge the same by pressing the ACK/Cancel button within
+15 seconds (configurable). If not acknowledged, brakes will be applied by the
+Onboard Kavach until Loco Pilot acknowledges by pressing the ACK/Cancel
+button.
+VII.
+SHUNTING OPERATION PROCEDURE
+●
+Activation of Shunting: Loco pilot presses softkeys SHNT then CNFM on
+LP-OCIP while LOCO is stationary.
+●
+LP to follow the station working rules and general/subsidiary rules.
+●
+For exit from the Shunting mode: Repeat activatio
+
+tion working rules and general/subsidiary rules.
+●
+For exit from the Shunting mode: Repeat activation process i.e. Loco pilot
+presses SHNT then CNFM on LP-OCIP while LOCO is stationary
+VIII.
+PROCEDURE
+FOR
+Leading/NON-LEADING
+Switch
+OPERATION
+For single Locomotives:
+Ensure the Leading/Non Leading switch available on LP-OCIP of both CABs of
+Leading Locomotive in “Leading position” when the train/loco is at standstill.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+39
+
+o is at standstill.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+39
+
+DRAFT
+For multiple locos:
+Leading loco performs Train Supervision, hence the Leading/Non-Leading
+switch of both LP-OCIPs(both CABs) shall be kept in Leading position when the
+train/loco is at standstill. The trailing locomotive/trailing locomotives do not
+perform
+Train
+Supervision,
+hence
+the
+Leading/Non-Leading
+switch
+on
+LP-OCIPs of both CABs shall be kept in Non-leading position when the
+train/loco is at standstill.
+CAUTION:
+The
+Leading/Non-Leading
+Switch
+should
+not
+be
+placed
+in
+Non-Leading Pos
+
+co is at standstill.
+CAUTION:
+The
+Leading/Non-Leading
+Switch
+should
+not
+be
+placed
+in
+Non-Leading Position in a single loco/train formation. In case a Loco pilot
+operates the Leading/Non-Leading Switch to Non-Leading Position, it must be
+noted that Kavach will not perform train supervision and will not provide any
+protection to the loco/train. The entire responsibility for the safety of the train
+rests on the loco pilot.
+IX.
+SPAD AND TRAIN TRIP RECOVERY
+●
+When an Onboard Kavach is in Full Supervi
+
+ests on the loco pilot.
+IX.
+SPAD AND TRAIN TRIP RECOVERY
+●
+When an Onboard Kavach is in Full Supervision / Limited Supervision
+mode and passes a stop signal at ON or End of Authority+30m, the
+Onboard Kavach unit shall enter into Trip Mode and the Emergency
+brake is applied continuoulsy.
+●
+Once the train stops, LP has to acknowledge by selecting P_TRIP and
+CFNM Soft keys on the LP-OCIP and onboard Kavach enters Post Trip
+mode.
+●
+Now, the Emergency Brake is released by Onboard Kavach, allowing the
+
+Kavach enters Post Trip
+mode.
+●
+Now, the Emergency Brake is released by Onboard Kavach, allowing the
+train to move. Onboard Kavach will supervise train movements against
+the Ceiling Post Trip mode speed (default is 15 kmph).
+X.
+Auto whistling on approach of Level Crossing Gate
+XI.
+Onboard Kavach displays the level crossing gate information on LP-OCIP,
+when approach of LC gate is detected through LC gate tags.
+XII.
+Onboard Kavach will not blow the horn if the movement authority is less
+than LC ga
+
+C gate tags.
+XII.
+Onboard Kavach will not blow the horn if the movement authority is less
+than LC gate distance from its current position.
+XIII.
+Continuous whistling commences from a distance of 600m on approach
+of a LC Gate till the time that train reaches LC Gate.
+XIV.
+It is possible to cancel the auto-whistling by pressing the Ack/Cancel
+button on LP-OCIP.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+40
+
+SPEC VER 3.2 |
+40
+
+DRAFT
+XI.
+DOs and DON’Ts
+1. DOs
+SR.
+DESCRIPTION
+1.
+Check for intactness of Onboard Kavach, LP-OCIP equipment & BIU
+before switching ON of OnBoard Kavach. Loco Pilot(LP) shall intimate the
+status to concerned Traction Loco Controller (TLC) / Power Controller
+(PRC) about the broken seal on Onboard Kavach and LP-OCIP.
+2.
+Read and understand this user manual thoroughly.
+3.
+Acknowledge the alerts on LP-OCIP, immediately within the specified
+time.
+4.
+Properly select the train configuration (Goods/ For
+
+-OCIP, immediately within the specified
+time.
+4.
+Properly select the train configuration (Goods/ Formation/ Light Engine)
+and operating modes.
+5.
+When switching ON Onboard Kavach,
+a. Switch ON required MCBs when activating Onboard Kavach
+b. Put Isolation switch in Service/Normal mode
+c. Open EM and MR cocks(wherever applicable)
+6.
+When switching OFF Onboard Kavach,
+a. Place Isolation switch in isolation mode
+b. Close EM and MR cocks(wherever applicable)
+c. Switch off all MCBs when switching off
+
+lation mode
+b. Close EM and MR cocks(wherever applicable)
+c. Switch off all MCBs when switching off Onboard Kavach.
+7.
+Handle LP-OCIP with care
+8.
+Loco Pilot has to inform the Traction Loco Controller (TLC) / Power
+Controller (PRC) whenever Onboard Kavach is defective, so as to attend
+the failure by concerned Railway/OEM staff at the earliest.
+9.
+LP shall follow the G & SR provisions and operational requirements issued
+by ‘ Railways.
+10.
+LP to ensure intactness of mounting/fixing of both RFID re
+
+al requirements issued
+by ‘ Railways.
+10.
+LP to ensure intactness of mounting/fixing of both RFID readers in the
+event of CRO and abnormal sound from undergear.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+41
+
+DRAFT
+2. DON’Ts
+SR.
+DESCRIPTION
+1.
+Don’t attempt any repair work.
+2.
+Don’t switch OFF power to the Onboard Kavach system, when it is
+functioning
+3.
+Don’t
+remove
+system
+modules
+or
+connectors,
+Radio
+Modems and
+Antennae connections when Kavach is functioning.
+4.
+Don’t isolate the Onboard Kavach when the Train is in movement.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+42
+
+DRAFT
+SECTION#4: Information At A Glance
+I.
+Crew Messages
+Fig.11 Context Messages for the Loco Pilot
+SR
+Messages for the Loco Pilot
+1.
+System Fault , Isolate or Restart TCAS
+2.
+Ack Loco stop in Block Section, SOS Generates in XX s
+3.
+Emergency Brake Bypassed(EB cock Closed), No Traction
+4.
+Train Tripped, Select P_Trip
+5.
+Brake Applied, Dead End Detected
+6.
+Brake Applied, Movement in Standy Mode
+7.
+Brake Applied, Rollback Detected
+8.
+Reverse Movement Not Allowed, Use REV mode
+9.
+Forward Movement
+
+Brake Applied, Rollback Detected
+8.
+Reverse Movement Not Allowed, Use REV mode
+9.
+Forward Movement Not Allowed in REV mode, Use SR mode
+10.
+Ack SR mode – TCAS Teritory Exit
+11.
+Ack SR mode – Radio Comm Fail with Station
+12.
+Ack SR mode – No Section Speed Info
+13.
+Ack LS mode – Radio Comm Fail with Station
+14.
+Ack LS mode – No Section Speed Info
+15.
+Ack Repeated Red signal Override
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+43
+
+ATING MANUAL FOR KAVACH SPEC VER 3.2 |
+43
+
+DRAFT
+16.
+Head On Collision with Loco XXXXX in YYYY m
+17.
+Rear End Collision with Loco XXXXX in YYYY m
+18.
+Override selected, Pass Signal in XXXs
+19.
+Reverse Mode Expires in XXXXm or YYYs
+20.
+Manned LC Gate XXXX approaching in YYYYm
+21.
+Unmanned LC Gate XXXX approaching in YYYYm
+22.
+LS mode Waiting for Radio Comm with Station
+23.
+LS mode Waiting for Section Speed Info
+24.
+Both Leading & Non-leading Inputs are Active
+25.
+Train Length Computation in Progress
+26.
+Train Length Computation Success (X
+
+g Inputs are Active
+25.
+Train Length Computation in Progress
+26.
+Train Length Computation Success (XXXXm)
+27.
+Train Length Computation Fail (XXXXm)
+28.
+Train Length Computation Aborted
+29.
+TurnOut in XXXXm with Speed Limit YYYkmph
+30.
+TSR in XXXXm with Speed Limit YYYkmph (for future use)
+31.
+PSR in XXXXm with Speed Limit YYYkmph
+32.
+End of Authority in XXXXm
+33.
+TCAS Territory Entry
+34.
+System Self Test in Progress
+35.
+System Self Test Success
+36.
+System Self Test Fail – XXXX
+37.
+Brakes Testing
+
+lf Test in Progress
+35.
+System Self Test Success
+36.
+System Self Test Fail – XXXX
+37.
+Brakes Testing – Waiting for MR X.YY( X.YY)Kg/cm2
+38.
+Brakes Testing – Waiting for BP X.YY(X.YY)Kg/cm2
+39.
+Brakes Testing – NSB Applied, BP-X.YYKg/cm2
+40.
+Brakes Testing – FSB Applied, BP-X.YYKg/cm2
+41.
+Brakes Testing – EB Applied, BP-X.YYKg/cm2
+42.
+Brakes Testing Success
+43.
+Brakes Testing Fail ( NSB,FSB, EB)
+44.
+Brakes Testing Fail, Press ACK for Retest Brakes
+45.
+Select Train Configuration, Press Config Butt
+
+.
+Brakes Testing Fail, Press ACK for Retest Brakes
+45.
+Select Train Configuration, Press Config Button
+46.
+Select Staff Responsible or Shunt Mode
+SR
+Messages for the Loco Pilot
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+44
+
+DRAFT
+47.
+SOS – Self Loco ( Manual )
+48.
+SOS – Self Loco ( Stopped in Block section )
+49.
+SOS – Self Loco ( Train Parted ) (For Future Use)
+50.
+SOS – From Loco XXXXX ( Manual )
+51.
+SOS – From Loco XXXXX ( Stopped in Block section )
+52.
+SOS – From Loco XXXXX ( Train Parted ) (For Future Use)
+53.
+SOS – From Station XXXXX ( SOS to All Locos )
+54.
+SOS – From Station XXXXX ( SOS to This Loco )
+55.
+Over Speed, Please Reduce Speed
+56.
+Brake Applied, Speed Limit Exceeded
+57.
+FSB will be applied in YYYS
+
+Speed, Please Reduce Speed
+56.
+Brake Applied, Speed Limit Exceeded
+57.
+FSB will be applied in YYYS
+58.
+EB will be applied in YYYS
+59.
+BIU Isolated
+60.
+XXXXXXX Train Type selected
+II.
+All OEMs MCB Location
+Three Phase EMU
+Fig. 12(1)
+Fig. 12(2)
+Medha: One MCB - AWS Supply in CRW panel and two no. of MCBs at onboard Kavach
+Fig. 12(3)
+Fig. 12(4)
+HBL: One MCB - AWS Supply in CRW panel and two nos. of MCBs at onboard Kavach
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+45
+
+MCBs at onboard Kavach
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+45
+
+DRAFT
+Fig. 12(5)
+Fig. 12(6)
+Kernex: One MCB-AWS Supply in CRW panel and One MCB at onboard Kavach
+Three Phase Locos
+Fig. 12(7)
+Medha: Two nos. of MCBs at on board
+Kavach
+Fig. 12(8)
+Kernex: One MCB at SB-1 PANEL
+Fig. 12(9)
+HBL: Two nos. Of MCBs at SB-1 PANEL
+VandeBharat
+Fig. 12(10)
+Medha: Two nos. Of MCBs at Onboard
+Kavach
+Fig. 12(11)
+HBL: Four Nos. of MCBs at Onboard Kavach
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+46
+
+NUAL FOR KAVACH SPEC VER 3.2 |
+46
+
+DRAFT
+Conventional Loco
+Fig. 12(12)
+HBL: Two nos. Of MCBs beside of Pneumatic
+Panel
+Fig. 12(13)
+Medha :Two nos. Of MCBs On Onboard
+Kavach
+Fig. 12(14)
+Kernex : One no. of MCB in TB board
+Diesel Loco
+Fig. 12(15)
+Medha: Two nos. Of MCBs at onboard
+Kavach
+Fig. 12(16)
+Kernex: Five nos. Of MCBs in adjacent to
+Onboard Kavach
+Fig. 12(17)
+HBL: Kavach MCB(two) besides Pneumatic
+panel
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+47
+
+NUAL FOR KAVACH SPEC VER 3.2 |
+47
+
+DRAFT
+Conventional EMU
+Fig. 12(18)
+Medha: Two Nos. of MCB at Onboard
+Kavach
+Fig. 12(19)
+Kernex: One no. of MCB near Onboard
+Kavach
+Fig. 12(20)
+HBL: Two nos. Of MCBs at contactor panel
+Summary of MCBs to be operated rolling stock wise across all OEMs
+Rolling stock
+MEDHA
+HBL
+KERNEX
+Three Phase Loco
+Two
+Two
+One
+Three Phase EMU
+Three
+Three
+Two
+Vandebharat
+Two
+Four
+Not yet Installed
+Conventional Loco
+Two
+Two
+One
+Diesel Loco
+Two
+Two
+Five
+Conventional EMU
+Two
+Two
+One
+LOCO PILOT OPERATING MANUAL FOR KAV
+
+wo
+Two
+One
+Diesel Loco
+Two
+Two
+Five
+Conventional EMU
+Two
+Two
+One
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+48
+
+DRAFT
+III.
+All OEMs Isolation Switch Location
+Three Phase EMU
+Fig. 13(1)
+Kernex: Isolation switch near contactor panel
+Fig. 13(2)
+Medha: Isolation switch On onboard Kavach
+Fig. 13(3)
+HBL: Isolation switch on BIU box
+Three Phase Loco
+Fig. 13(4)
+Medha: Isolation switch on top of Onboard
+Kavach
+Fig. 13(5)
+Kernex: Isolation switch near Onboard
+Kavach
+Fig. 13(6)
+HBL: Isolation switch on top of E-70
+Interface Unit
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+49
+
+erface Unit
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+49
+
+DRAFT
+VandeBharat
+Fig. 13(7)
+Medha: On top of Onboard Kavach
+Fig. 13(8)
+HBL: Near onboard Kavach
+Conventional Loco
+Fig. 13(9)
+Kernex: Kavach Isolation switch
+Fig. 13(10)
+Medha: Kavach Isolation
+Fig. 13(11)
+HBL: Kavach Isolation switch
+Diesel Loco
+Fig. 13(12)
+Kernex: Kavach Isolation switch
+Fig. 13(13)
+HBL: Kavach Isolation switch
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+50
+
+DRAFT
+Fig. 13(14)
+Medha: Kavach Isolation switch
+Conventional EMU
+Fig. 13(15)
+Medha: Ontop of Onboard Kavach
+Fig. 13(16)
+Kernex: Near Onboard Kavach
+Fig. 13(17)
+HBL: Near Onboard Kavach
+Summary of Isolation Switch to be operated across all OEMs
+Rolling stock
+MEDHA
+HBL
+KERNEX
+Diesel
+loco,
+Conventional
+loco,
+Three
+phase
+loco,
+Three
+phase
+EMU,
+Conventional
+EMU
+and Vandebharat
+Switch
+with
+positions:
+Normal
+and Isolation
+Switch
+with
+positions: Service
+and Isolation
+Switch
+with
+positions:
+Normal
+and I
+
+ormal
+and Isolation
+Switch
+with
+positions: Service
+and Isolation
+Switch
+with
+positions:
+Normal
+and Isolation
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+51
+
+DRAFT
+IV.
+All OEMs Cocks Location
+Three Phase EMU
+Vande Bharat
+Fig. 14(1)
+ALL Makes: EM(AWS cock) In the Pneumatic
+Panel below Driver Desk
+Fig. 14(2)
+ALL Makes: EM cock (left side of LP seat)
+Three Phase Locomotive E-70
+Three Phase Locomotive CCB
+Fig. 14(3)
+ALL Makes: EM cock below driver desk in each
+CAB
+Fig. 14(4)
+ALL Makes: EM cock below driver desk in
+CAB1
+Arrangement of IRU in Three Phase Locomotives with E-70 Brake System
+Fig. 14(5)
+ALL Makes: IRU Bypass Switch on top of IRU in
+each CAB
+Fi
+
+omotives with E-70 Brake System
+Fig. 14(5)
+ALL Makes: IRU Bypass Switch on top of IRU in
+each CAB
+Fig. 14(6)
+ALL Makes: IRU Bypass Switch on top of
+IRU in each CAB
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+52
+
+DRAFT
+Conventional/Diesel Locos
+Fig. 14(7)
+Medha: Conventional/Diesel Locos
+MR and EM cock
+Fig. 14(8)
+Kernex: Conventional BIU MR and EM cock
+Fig. 14(9)
+HBL: Diesel loco EM cock
+Fig. 14(10)
+HBL: Diesel loco MR cock
+Fig. 14(11)
+HBL: Conventional loco EM cock
+Fig. 14(12)
+HBL: Conventional loco MR cock
+Conventional EMU
+Fig. 14(13)
+Kernex: Conventional EMU MR cock
+Fig. 14(14)
+Kernex: Conventional EMU EM cock
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+53
+
+EM cock
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+53
+
+DRAFT
+Fig. 14(15)
+Medha: Conventional EMU MR cock
+Fig. 14(16)
+Medha: Conventional EMU loco EM cock
+Fig. 14(17)
+HBL: Conventional EMU MR cock
+Fig. 14(18)
+HBL: Conventional EMU EM cock
+Cock Nomenclature:
+1. Emergency Magnet(EM) valve Isolation cock : One Emergency Magnet Valve is
+mounted on the BP pipeline which is used for exhausting BP in the event of
+an Emergency Brake Application. The isolating cock for this Emergency
+Magnet valve is named EM cock. The Isolation/closing of this cock will preve
+
+cock for this Emergency
+Magnet valve is named EM cock. The Isolation/closing of this cock will prevent
+venting of BP.
+2. Main Reservoir(MR) cock: It is available in IRAB brake System(both Diesel and
+Electric Locomotives) and in Conventional EMUs.
+3. Interface Relay Unit(IRU) Bypass Switch: This needs to be operated only in the
+case of E-70 Brake System. This switch is available on top of IRU below A9 in
+each CAB.
+Summary of cocks to be operated rolling stock wise across all OEMs
+Rolling stock
+ME
+
+A9 in
+each CAB.
+Summary of cocks to be operated rolling stock wise across all OEMs
+Rolling stock
+MEDHA
+HBL
+KERNEX
+MR
+EM
+MR
+EM
+MR
+EM
+Three Phase loco (E-70)*
+--
+Two
+--
+Two
+--
+Tne
+Three Phase loco (CCB)**
+--
+One
+--
+One
+--
+One
+Three phase EMU
+--
+One
+--
+One
+--
+One
+Vandebharat
+--
+One
+--
+One
+--
+One
+Diesel loco
+One
+One
+One
+One
+One
+One
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+54
+
+DRAFT
+Conventional loco
+One
+One
+One
+One
+One
+One
+Conventional EMU
+One
+One
+Three
+One
+Two
+One
+Note:
+*In E-70 brake system operate the EM cock and also operate the IRU Bypass switch
+of active CAB
+**In CCB operate only one EM cock which is available in CAB1
+V.
+IMPORTANT Note to the Loco Pilot
+1. Kavach
+is
+only
+an additional safety aid to loco pilot. The primary
+responsibility for regulating the speed of the train and stopping it at the correct
+location solely rests with the loco pilot. This does not
+
+f the train and stopping it at the correct
+location solely rests with the loco pilot. This does not absolve the loco pilot of
+their responsibilities in any way.
+2. Loco Pilot has to follow line side Signals, Caution Orders, Warning boards and
+Whistle as per the prevalent operating rules. The signal aspect displayed on
+the LP-OCIP of onboard Kavach is only an additional aid to the Loco pilot.
+3. When the onboard Kavach is switched ON and started in SR mode from a
+non-Kavach section, as and when t
+
+en the onboard Kavach is switched ON and started in SR mode from a
+non-Kavach section, as and when the train enters into Kavach section,
+depending on the availability of information, the Onboard Kavach will transit
+into LS mode and finally to FS mode automatically without any intervention
+from the Loco pilot.
+4. Similarly when the Train enters into Non-Kavach Section from a Kavach
+Section, Onboard Kavach will transit automatically into SR mode and Loco Pilot
+needs to acknowledge the transition i
+
+Kavach will transit automatically into SR mode and Loco Pilot
+needs to acknowledge the transition into SR mode within 15s (configurable) to
+avoid brake application by Onboard Kavach. Whenever there is a degradation
+in operating mode Loco Pilot’s Acknowledgement is needed.
+5. The operation of Kavach shall, no-way, infringe / override the rules of normal
+train operations on Zonal Railways as per G&SR and other instructions issued
+for train operations. Hence, Loco Pilot(LP) shall ensure compliance
+
+SR and other instructions issued
+for train operations. Hence, Loco Pilot(LP) shall ensure compliance to G&SR and
+other instructions issued for train operations.
+6. For any clarifications, please refer to RDSO specification:RDSO/SPN/196/2012
+dt. 17.05.20217
+and guidelines issued from time to time on Kavach
+Specification Version 3.2.
+7. LP needs to follow the General and Subsidiary Rules for Passing Auto Signal at
+‘ON’ and not to rely on ceiling speed permitted by Kavach.
+LOCO PILOT OPERATING MANU
+
+Auto Signal at
+‘ON’ and not to rely on ceiling speed permitted by Kavach.
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+55
+
+DRAFT
+8. LP needs to select isolation mode in the block section for carrying shunting
+operations in the block section since shunt mode is applicable only in the yard.
+9. Choose the appropriate train configuration as per the train type from the
+available combinations displayed in the LP-OCIP.
+10.Refer section IV.2(b) for the procedure to be followed while working in staff
+responsible mode.
+11.Whenever BP drops immediately after Switching ON of Kavach and not
+restoring back, try isolating the Kava
+
+ver BP drops immediately after Switching ON of Kavach and not
+restoring back, try isolating the Kavach as per Switch OFF procedure
+mentioned above.
+12.In CCB 2.0 locomotives, whenever Brake Pipe Pressure(BP) is not created even
+after isolation of Kavach and ensuring cock position as per Switch off
+procedure, operate the connectors on the Train Protection Module(TPM) as per
+the procedure given below.
+○
+MCE OFF
+○
+remove the cable (795018 & 787603) from TPM-J1 & J2 & MPIO-J2.
+○
+connect Cable no- 79
+
+w.
+○
+MCE OFF
+○
+remove the cable (795018 & 787603) from TPM-J1 & J2 & MPIO-J2.
+○
+connect Cable no- 795018 between MPIO-J2 & PSJB-100A as below
+picture.
+○
+MCE ON
+Figure 15: CCB 2.0 locomotives
+REFERENCES
+1.
+Loco TCAS User Manual, Document No. 516750036, Ver. 1.5 (M/s HBL).
+2.
+Loco TCAS User Operating Manual, Document No. KMIL: TCAS:OM-L, Version 1.0 &
+Version 1.1 Rev 1 (M/s Kernex)
+3.
+Loco TCAS Driver Machine Operating Manual Ver. 1.2, MCA 110_LOCIP_OPM-1_2 (M/s
+Medha).
+4.
+Version 1.0,
+dt: 03.06.2
+
+er Machine Operating Manual Ver. 1.2, MCA 110_LOCIP_OPM-1_2 (M/s
+Medha).
+4.
+Version 1.0,
+dt: 03.06.2024: Reference Guide to LOCO PILOTS FOR KAVACH
+OPERATION, SOUTH CENTRAL RAILWAY
+5.
+RDSO
+Specification
+of
+Train
+Collision
+Avoidance
+System
+(Kavach)
+No.
+RDSO/SPN/196/2012 Version 3.2
+LOCO PILOT OPERATING MANUAL FOR KAVACH SPEC VER 3.2 |
+56
+
